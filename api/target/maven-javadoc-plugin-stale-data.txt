@@ -24,8 +24,8 @@
 -version
 -windowtitle
 'backend-assessment-api 1.0.0-SNAPSHOT API'
+'/home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/pricing/CustomMoneySerializer.java'
 '/home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/pricing/Money.java'
-'/home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/pricing/Pricing.java'
 '/home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/ports/secundary/CalculateFeeServices.java'
 '/home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/ports/primary/CalculateFeeUseCase.java'
 '/home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/Ticket.java'
@@ -90,22 +90,22 @@
 /home/oem/.m2/repository/org/springframework/spring-core/6.0.12/spring-core-6.0.12.jar = 1708281949637
 /home/oem/.m2/repository/org/springframework/spring-jcl/6.0.12/spring-jcl-6.0.12.jar = 1708281948821
 /home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java = 1709378194662
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/generated-sources/annotations = 1709454096146
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/overview-summary.html = 1709454101284
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/copy.svg = 1709454101296
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/member-search-index.js = 1709454101260
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/overview-tree.html = 1709454101224
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/allpackages-index.html = 1709454101260
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/tag-search-index.js = 1709454101264
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/help-doc.html = 1709454101292
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/module-search-index.js = 1709454101260
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/stylesheet.css = 1709454101296
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/jquery-ui.overrides.css = 1709454101304
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/type-search-index.js = 1709454101260
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/index.html = 1709454101232
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/package-search-index.js = 1709454101260
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/element-list = 1709454101112
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/index-all.html = 1709454101280
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/script.js = 1709454101296
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/allclasses-index.html = 1709454101256
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/search.js = 1709454101300
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/generated-sources/annotations = 1709503591338
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/overview-summary.html = 1709503596710
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/copy.svg = 1709503596718
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/member-search-index.js = 1709503596690
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/overview-tree.html = 1709503596658
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/allpackages-index.html = 1709503596686
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/tag-search-index.js = 1709503596690
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/help-doc.html = 1709503596714
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/module-search-index.js = 1709503596686
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/stylesheet.css = 1709503596718
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/jquery-ui.overrides.css = 1709503596726
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/type-search-index.js = 1709503596690
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/index.html = 1709503596662
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/package-search-index.js = 1709503596690
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/element-list = 1709503596542
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/index-all.html = 1709503596706
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/script.js = 1709503596718
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/allclasses-index.html = 1709503596682
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/target/apidocs/search.js = 1709503596722

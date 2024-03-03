@@ -21,9 +21,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-@Profile("Rest")
+@Profile("rest-adapter")
 @RestController
 @RequestMapping(value = "/api/v1/tickets", produces = "application/json")
 @Slf4j
@@ -32,6 +33,7 @@ public class TicketRestController implements CalculateFeeUseCase {
     @Autowired
     private CalculateFeeUseCase calculateFeeUseCase;
 
+    @RequestMapping(method = RequestMethod.POST, path = "/calculate")
     public Ticket calculate(Ticket ticket) {
         return calculateFeeUseCase.calculate(ticket);
     }

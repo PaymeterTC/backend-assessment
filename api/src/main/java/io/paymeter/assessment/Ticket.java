@@ -15,19 +15,32 @@
  */
 package io.paymeter.assessment;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import io.paymeter.assessment.pricing.CustomMoneySerializer;
+import io.paymeter.assessment.pricing.Money;
 import java.util.UUID;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  *
  * @author oem
  */
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Ticket {
-    
+
     private UUID id;
     private String parkingId;
     private String from;
     private String to;
-    private int duration;
-    
-    
+    private long duration;
+    @JsonSerialize(using = CustomMoneySerializer.class)
+    private Money price;
+
 }

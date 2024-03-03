@@ -19,11 +19,13 @@ import io.paymeter.assessment.Ticket;
 import io.paymeter.assessment.ports.primary.CalculateFeeUseCase;
 import io.paymeter.assessment.ports.secundary.CalculateFeeServices;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author oem
  */
+@Service
 public class BackendAssessmentService implements CalculateFeeUseCase {
 
     @Autowired

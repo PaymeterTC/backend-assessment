@@ -13,18 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.paymeter.assessment.services;
+package io.paymeter.assessment.rest;
 
-import io.paymeter.assessment.Ticket;
-import io.paymeter.assessment.ports.secundary.CalculateFeeServices;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-@Profile("CustomCalculator")
-public class CustomCalculatorService implements CalculateFeeServices {
-
-    @Override
-    public Ticket calculate(Ticket ticket) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+@Profile("rest-adapter")
+@ComponentScan
+@Configuration
+public class RestAdapterConfig {
 
 }

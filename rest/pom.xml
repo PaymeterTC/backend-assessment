@@ -13,6 +13,10 @@
     <name>backend-assessment-rest-adapter</name>
     
     <dependencies>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+        </dependency>
         
         <dependency>
             <groupId>com.h2database</groupId>

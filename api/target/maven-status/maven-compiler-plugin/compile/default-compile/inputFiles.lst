@@ -1,5 +1,5 @@
 /home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/Ticket.java
 /home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/pricing/Money.java
-/home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/pricing/Pricing.java
+/home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/pricing/CustomMoneySerializer.java
 /home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/ports/primary/CalculateFeeUseCase.java
 /home/oem/desarrollo/source/kyoe/backend-assessment/api/src/main/java/io/paymeter/assessment/ports/secundary/CalculateFeeServices.java
