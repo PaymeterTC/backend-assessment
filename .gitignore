@@ -38,3 +38,7 @@ out/
 
 ### Dev data ###
 data/*
+/target/
+/rest/target/
+/core/target/
+/custom-calculator/target/
