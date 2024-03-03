@@ -1,0 +1,7 @@
+io/paymeter/assessment/ports/secundary/CalculateFeeServices.class
+io/paymeter/assessment/pricing/Money$MoneyBuilder.class
+io/paymeter/assessment/pricing/CustomMoneySerializer.class
+io/paymeter/assessment/Ticket.class
+io/paymeter/assessment/pricing/Money.class
+io/paymeter/assessment/ports/primary/CalculateFeeUseCase.class
+io/paymeter/assessment/Ticket$TicketBuilder.class
